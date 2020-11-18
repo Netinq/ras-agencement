@@ -1,0 +1,122 @@
+#accueil {
+  /* background-image: url(../../media/img/intro-bg.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+#accueil #intro-video-content {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#accueil #intro-video-content #intro-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+
+#intro-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 10;
+}
+
+#intro-content #intro-box {
+  height: 75vh;
+  background-color: rgba(20, 38, 45, .95);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#intro-content #intro-box #intro-title {
+  max-width: 75%;
+  min-height: 25%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 10%;
+  position: relative;
+}
+
+#intro-content #intro-box #intro-bar{
+  height: 3px;
+  width: 35%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  background-color: #6DC0A2;
+}
+
+#intro-content #intro-box #intro-txt {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  color: #CFCFCF;
+  font-family: Corbel;
+}
+
+#intro-content #intro-box #intro-btn {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 5%;
+  height: 50px;
+  line-height: 50px;
+  width: 35%;
+  background-color: #6EC1A3;
+  color: #ffffff;
+  font-family: Corbel;
+  font-size: .9rem;
+  text-align: center;
+  transform: translate(5px, -5px);
+  transition: .3s all;
+}
+#intro-content #intro-box #intro-btn img {
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+#intro-content #intro-box #intro-btn::before {
+  content: " ";
+  position: absolute;
+  left: -5px;
+  bottom: -5px;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #6DC0A2;
+  transition: .3s all;
+}
+#intro-content #intro-box #intro-btn:hover {
+  transform: translate(0);
+  box-shadow: 0px 0px 15px #181818;
+}
+#intro-content #intro-box #intro-btn:hover::before {
+  left: 0;
+  bottom: 0;
+}
+#intro-content #intro-box #intro-btn:hover img {
+  animation: arrow 4s infinite;
+}
+@keyframes arrow {
+  0%, 60%, 100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  30% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  31% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+}

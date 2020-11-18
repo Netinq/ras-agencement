@@ -17,8 +17,8 @@
         <meta name='target' content='all'>
         <meta name='theme-color' content='#FAEC71'>
 
-        <link rel='shortcut icon' type='image/png' href='./assets/media/img/logo.png'>
-        <link rel="apple-touch-icon" href="./assets/media/img/logo.png" />
+        <link rel='shortcut icon' type='image/png' href='./assets/media/img/icon.png'>
+        <link rel="apple-touch-icon" href="./assets/media/img/icon.png" />
 
         <!-- Twitter Card meta -->
         <meta name='twitter:card' content='summary'>
@@ -50,22 +50,56 @@
         <meta name="description" content="DESCRIPTION">
 
         <!-- STATIC Stylesheet -->
-        <link rel="stylesheet" type="text/css" href="./assets/css/home.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/master.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-grid.css">
 
+        <link rel="stylesheet" type="text/css" href="./assets/css/layouts/header.css">
+
+        <link rel="stylesheet" type="text/css" href="./assets/css/sections/accueil.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/sections/services.css">
+
         <!-- STATIC Scripts -->
-        <!-- <script src="{{asset('js/app.js')}}"></script> -->
-
+        <script language="JavaScript" type="text/javascript" src="assets/js/jquery.js"></script>
+        
     </head>
-
+    
     <body>
+        <header>
+            <a href="/"><img id="header-logo" src="./assets/media/img/logo.png"></img></a>
+            <nav id="header-nav" class="d-none d-sm-flex">
+                <a class="nav-link" href="#accueil"><div class="nav-selected">Accueil</div></a>
+                <a class="nav-link" href="#services"><div>Services</div></a>
+                <a class="nav-link" href="#partenaires"><div>Partenaires</div></a>
+                <a class="nav-link" href="#contact"><div>Contact</div></a>
+            </nav>
+        </header>
         <section class="row" id="accueil">
-             <div class="offset-1 col-4" id="intro-content">
+            <div class="offset-1 col-10 col-sm-7 col-md-6 col-lg-4" id="intro-content">
                 <div id="intro-box">
+                    <div id="intro-bar"></div>
                     <img id="intro-title" src="./assets/media/img/intro-title.png"></img>
+                    <p id="intro-txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                    <a href="#services"><div id="intro-btn">
+                        Découvrir <img alt="Arrow" src="./assets/media/svg/arrow.svg" />
+                    </div></a>
                 </div>
-             </div>
-        </section>
-    </body>
+            </div>
+            <div id="intro-video-content">
+                <video autoplay muted loop id="intro-video">
+                    <source src="./assets/media/video/background.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </section>
+            <section id="services" class="row">
+                <div id="srv-title-content" class="offset-1 col-4">
+                    <img id="srv-title" src="./assets/media/img/services-title.png">
+                </div>
+                <div id="srv-box-content" class="offset-1 col-5">
+                    <div id="srv-box">
+
+                    </div>
+                </div>
+            </section>
+        </body>
+        <script language="JavaScript" type="text/javascript" src="assets/js/scroll.js"></script>
 </html>

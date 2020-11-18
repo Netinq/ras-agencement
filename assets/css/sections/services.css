@@ -1,0 +1,32 @@
+#services {
+    z-index: 10;
+    background-image: url(../../media/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#services #srv-title-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#services #srv-title-content #srv-title
+{
+    width: 100%;
+}
+
+#services #srv-box-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#services #srv-box-content #srv-box
+{
+    height: 75vh;
+    width: 100%;
+    background-color: #14262D;
+}
