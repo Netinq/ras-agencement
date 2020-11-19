@@ -3,6 +3,8 @@
     background-image: url(../../media/img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
 }
 
 #services #srv-title-content
@@ -10,6 +12,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
 }
 
 #services #srv-title-content #srv-title
@@ -29,4 +33,86 @@
     height: 75vh;
     width: 100%;
     background-color: #14262D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+#services #srv-box-content #srv-box .srv-subox 
+{
+    height: calc((75vh / 3) - 50px);
+    width: 75%;
+    border: 1px solid #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Corbel;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: .3s all;
+}
+#services #srv-box-content #srv-box .srv-subox:hover { background-color: #6EC1A3; }
+#services #srv-box-content #srv-box .srv-subox .subtitle { display: none; }
+#services #srv-box-content #srv-box .srv-subox:hover .title { display: none; }
+#services #srv-box-content #srv-box .srv-subox:hover .subtitle { display: block; }
+
+
+@media screen and (min-width: 1200px) {
+    #services #srv-box-content #srv-box .srv-subox {
+        font-size: 1.6rem;
+    }
+}
+
+#services #srv-box-content #srv-box .srv-subox img
+{
+    height: 30%;
+    margin-bottom: 15px;
+}
+
+#services #srv-desc-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(75vw / 12 * 6);
+    height: 100vh;
+    /* display: none; */
+}
+
+#services .srv-desc {
+    position: relative;
+    height: 75vh;
+    width: calc(100vw / 12 * 6);
+    background-color: #14262D;
+    left: calc(100vw / 12 + 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    transition: .3s all;
+}
+
+#services .srv-desc p {
+    color: #ffffff;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    font-size: 1.4rem;
+    font-family: Corbel Light;
+    font-weight: 100;
+}
+@media screen and (min-width: 1200px) {
+    #services .srv-desc p {
+        font-size: 1.8rem;
+    }
+}
+
+/* .srv-subox:hover ~ #srv-desc-content { display: flex !important; } */
+
+#expertise-box:hover + #srv-desc-content #expertise { display: flex !important; }
+#installation-box:hover ~ #srv-desc-content #installation { display: flex !important; }
+#accompagnement-box:hover ~ #srv-desc-content #accompagnement { display: flex !important; }

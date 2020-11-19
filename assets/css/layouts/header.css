@@ -33,6 +33,12 @@ header #header-nav div {
     font-size: .9rem;
 }
 
+@media screen and (min-width: 1200px) {
+    header #header-nav div {
+        font-size: 1.2rem;
+    }
+}
+
 header #header-nav div:hover {
     background-color: #1e3944;
 }

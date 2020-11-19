@@ -32,6 +32,10 @@ section {
   font-family: Corbel Italic;
   src: url(../fonts/Corbel\ Italic.ttf);
 }
+@font-face {
+  font-family: Corbel Light;
+  src: url(../fonts/corbel-light.ttf);
+}
 
 a {
   text-decoration: none !important;
