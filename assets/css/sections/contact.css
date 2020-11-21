@@ -1,0 +1,25 @@
+#contact {
+    z-index: 10;
+    background-image: url(../../media/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact-title {
+    width: 100%;
+    height: auto;
+}
+
+#contact-map {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+}
+
+#contact-subcontent {
+    height: 45vh;
+    padding-top: 5vh;
+}

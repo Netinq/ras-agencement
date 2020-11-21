@@ -1,32 +1,40 @@
 
 $( "#expertise-box" )
 .on( "mouseenter", function() {
+  if ($(window).width() <= 768) return;
   $( "#expertise" ).css('display', 'flex');
 })
 .on( "mouseleave", function() {
+  if ($(window).width() <= 768) return;
   $( "#expertise" ).css('display', 'none');
 });
 
 $( "#accompagnement-box" )
 .on( "mouseenter", function() {
+  if ($(window).width() <= 768) return;
   $( "#accompagnement" ).css('display', 'flex');
 })
 .on( "mouseleave", function() {
+  if ($(window).width() <= 768) return;
   $( "#accompagnement" ).css('display', 'none');
 });
 $( "#installation-box" )
 .on( "mouseenter", function() {
+  if ($(window).width() <= 768) return;
   $( "#installation" ).css('display', 'flex');
 })
 .on( "mouseleave", function() {
+  if ($(window).width() <= 768) return;
   $( "#installation" ).css('display', 'none');
 });
 $( "#expertise" )
   .on( "mouseenter", function() {
-    $( "#expertise" ).css('display', 'flex');
+  if ($(window).width() <= 768) return;
+  $( "#expertise" ).css('display', 'flex');
   })
   .on( "mouseleave", function() {
-    $( "#expertise" ).css('display', 'none');
+  if ($(window).width() <= 768) return;
+  $( "#expertise" ).css('display', 'none');
   });
 
 $( "#accompagnement" )

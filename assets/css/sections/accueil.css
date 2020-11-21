@@ -64,7 +64,7 @@
   font-family: Corbel;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   #intro-content #intro-box #intro-txt {
     font-size: 1.5rem;
   }
