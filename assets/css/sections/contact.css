@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     padding-top: 75px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
     #contact {
     padding-top: 100px;
 }
