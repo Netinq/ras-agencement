@@ -1,5 +1,7 @@
 $(document).ready(function () {
-  $(document).on("scroll", onScroll);
+    $(document).on("scroll", onScroll);
+    var vid = document.getElementById("intro-video");
+    vid.volume = 0.1;
 });
 
 function onScroll(event){
