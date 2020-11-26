@@ -4,6 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 @media (min-width: 1000px) {
     #contact {
@@ -85,14 +88,9 @@
     #contact-map {
         display: none;
     }
-    #contact-subcontent {
-        overflow-x: scroll;
-        overflow-y: hidden;
-        justify-content: flex-start;
-    }
     .contact {
         height: 30vh;
-        width: 45vw;
+        width: 100vw;
     }
     
 }

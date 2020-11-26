@@ -1,6 +1,7 @@
+const vid = document.getElementById("intro-video");
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
-    var vid = document.getElementById("intro-video");
+    document.getElementById("intro-video").play();
     vid.volume = 0.1;
 });
 
@@ -20,6 +21,11 @@ function onScroll(event){
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('#header-nav a div').removeClass("nav-selected");
             currLink.children().addClass("nav-selected");
+            if (refElement.attr('id') == 'accueil') {
+                vid.volume = 0.2;
+            } else {
+                vid.volume = 0;
+            }
         }
         else{
             currLink.children().removeClass("nav-selected");
