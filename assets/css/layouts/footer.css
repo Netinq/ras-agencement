@@ -1,0 +1,13 @@
+footer {
+  height: 100px;
+  width: 100vw;
+  background-color: #14262D;
+  text-align: center;
+  line-height: 100px;
+  color: #ffffff;
+  font-family: Corbel Light;
+}
+footer a {
+  color: #ffffff;
+  font-family: Corbel Bold;
+}
