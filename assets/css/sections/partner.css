@@ -30,6 +30,13 @@
     font-size: 1.3rem;
     font-family: Corbel Light;
 }
+@media (min-width: 1000px)
+{
+
+    #partner-content #partner-desc{
+        font-size: 1.6rem;
+    }
+}
 
 #partner-content #partner-box{
     background-color: #ffffff;

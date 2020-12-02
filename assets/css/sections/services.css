@@ -88,7 +88,7 @@
     margin-bottom: 15px;
 }
 
-#services #srv-desc-content {
+#services .srv-desc-content {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -127,6 +127,6 @@
 
 /* .srv-subox:hover ~ #srv-desc-content { display: flex !important; } */
 
-#expertise-box:hover + #srv-desc-content #expertise { display: flex !important; }
-#installation-box:hover ~ #srv-desc-content #installation { display: flex !important; }
-#accompagnement-box:hover ~ #srv-desc-content #accompagnement { display: flex !important; }
+#expertise-box:hover + .srv-desc-content #expertise { display: flex !important; }
+#installation-box:hover ~ .srv-desc-content #installation { display: flex !important; }
+#accompagnement-box:hover ~ .srv-desc-content #accompagnement { display: flex !important; }

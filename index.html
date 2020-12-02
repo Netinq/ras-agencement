@@ -65,9 +65,9 @@
         
     </head>
     
-    <body>
+    <body itemscope itemtype="https://schema.org/Organization">
         <header>
-            <a href="/"><img id="header-logo" src="./assets/media/img/logo.png" alt="logo"/></a>
+            <a href="/"><img itemprop="logo" id="header-logo" src="./assets/media/img/logo.png" alt="logo"/></a>
             <nav id="header-nav" class="d-none d-sm-flex">
                 <a class="nav-link" href="#accueil"><div class="nav-selected">Accueil</div></a>
                 <a class="nav-link" href="#services"><div>Services</div></a>
@@ -79,7 +79,7 @@
             <div class="offset-1 col-10 col-sm-7 col-md-6 col-lg-4" id="intro-content">
                 <div id="intro-box">
                     <div id="intro-bar"></div>
-                    <img id="intro-title" src="./assets/media/svg/intro-title.svg" alt="Nous créons le supermarché de vos rêves"/>
+                    <img itemprop="slogan" id="intro-title" src="./assets/media/svg/intro-title.svg" alt="Nous créons le supermarché de vos rêves"/>
                     <p id="intro-txt">Notre équipe d'experts vous accompagne dans la définition de votre projet jusqu'à la fin des travaux.</p>
                     <a href="#services"><div id="intro-btn">
                         Découvrir <img alt="Arrow" src="./assets/media/svg/arrow.svg" />
@@ -96,17 +96,17 @@
                 <div id="srv-title-content" class="offset-1 offset-md-1 col-10 col-md-4 col-lg-4 srv-title-content">
                     <img id="srv-title" src="./assets/media/img/services-title.png" alt="Retail Atlantique Service Agencement">
                 </div>
-                <div id="srv-desc-content" >
+                <div class="srv-desc-content" >
                     <div class="srv-desc" id="expertise">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est</p>
                     </div>
                 </div>
-                <div id="srv-desc-content" >
+                <div class="srv-desc-content" >
                     <div class="srv-desc" id="installation">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est</p>
                     </div>
                 </div>
-                <div id="srv-desc-content" >
+                <div class="srv-desc-content" >
                     <div class="srv-desc" id="accompagnement">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est</p>
                     </div>
@@ -157,8 +157,8 @@
                     <div id="contact-subcontent" class="col-12 col-md-6">
                         <div class="contact">
                             <h3>Service commercial</h3>
-                            <a href="tel:0663730499">06.63.73.04.99</a>
-                            <a href="mailto:contact@ras-agencement.fr">contact@ras-agencement.fr</a>
+                            <a itemprop="telephone" href="tel:0663730499" style="font-family: Arial, sans-serif;">06.63.73.04.99</a>
+                            <a itemprop="email" href="mailto:contact@ras-agencement.fr" style="font-family: Arial, sans-serif;">contact@ras-agencement.fr</a>
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
             <footer>
                 © 2020 Copyright Tous droits réservés - <a href="./mentions-legales">Mentions légales</a>
             </footer>
+            <script type="text/javascript" src="assets/js/scroll.js"></script>
+            <script type="text/javascript" src="assets/js/hover.js"></script>
         </body>
-        <script type="text/javascript" src="assets/js/scroll.js"></script>
-        <script type="text/javascript" src="assets/js/hover.js"></script>
 </html>
