@@ -11,3 +11,12 @@ footer a {
   color: #ffffff;
   font-family: Corbel Bold;
 }
+
+@media screen and (max-width: 375px)
+{
+  footer a {
+    color: #ffffff;
+    font-family: Corbel Bold;
+    font-size: .9rem;
+  }
+}
