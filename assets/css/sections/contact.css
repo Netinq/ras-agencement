@@ -24,7 +24,7 @@
     padding-top: 5vh;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     /* overflow-x: visible;
     overflow-y: hidden; */
@@ -32,11 +32,8 @@
 
 
 #contact-map {
-    position: absolute;
-    left: 50%;
-    width: 20vw;
-    transform: translateX(-50%);
-    z-index: -1;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .contact::after {
@@ -90,7 +87,8 @@
     }
     .contact {
         height: 30vh;
-        width: 100vw;
+        width: 100%;
+        margin: 0;
     }
     
 }
