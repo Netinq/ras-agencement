@@ -14,9 +14,10 @@ footer a {
 
 @media screen and (max-width: 375px)
 {
+  footer {
+  font-size: .8rem;
+  }
   footer a {
-    color: #ffffff;
-    font-family: Corbel Bold;
-    font-size: .9rem;
+    font-size: .8rem;
   }
 }
