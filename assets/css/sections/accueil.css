@@ -54,9 +54,10 @@
 @media screen and (max-width: 400px)
 {
   #intro-content #intro-box #intro-title {
-    max-width: 75vw;
-    margin-left: 12.5vw;
-    margin-top: 10vh;
+    width: 50vw;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 10%;
     position: relative;
   }
 }
