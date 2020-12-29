@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="143" viewBox="0 0 490 287">
-  <text id="Spécialiste_en_agencement_de_magasins" data-name="Spécialiste
-en agencement
-de magasins" transform="translate(1 80)" fill="none" stroke="#fff" stroke-width="1" font-size="78" font-family="Impact"><tspan x="0" y="0">SPÉCIALISTE</tspan><tspan x="0" y="95">EN AGENCEMENT</tspan><tspan x="0" y="190">DE MAGASINS</tspan></text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 143" style="enable-background:new 0 0 200 143;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;}
+	.st1{font-family:'Impact';}
+	.st2{font-size:83.6344px;}
+</style>
+<text transform="matrix(1 0 0 1 0.4077 -97.7153)" class="st0 st1 st2">SPÉCIALISTE</text>
+<text transform="matrix(1 0 0 1 0.4077 4.1479)" class="st0 st1 st2">EN AGENCEMENT</text>
+<text transform="matrix(1 0 0 1 0.4077 106.0117)" class="st0 st1 st2">DE MAGASINS</text>
 </svg>
