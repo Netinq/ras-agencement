@@ -54,7 +54,7 @@
 @media screen and (max-width: 400px)
 {
   #intro-content #intro-box #intro-title {
-    width: 50vw;
+    width: 50vw !important;
     margin-left: 12.5%;
     margin-right: 12.5%;
     margin-top: 10%;
