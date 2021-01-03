@@ -20,8 +20,15 @@ section h1 {
 
 }
 
+section h2 {
+  color: #6DC0A2;
+  font-family: Corbel Bold;
+  font-size: 1.5rem;
+
+}
+
 section p {
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Corbel;
   text-align: left;
 }
