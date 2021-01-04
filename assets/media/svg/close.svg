@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="145" viewBox="0 0 101 145">
+  <g id="Groupe_132" data-name="Groupe 132" transform="translate(-10508 -5614)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(10508 5614)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="50.5" cy="50.5" r="50.5" stroke="none"/>
+      <circle cx="50.5" cy="50.5" r="49.5" fill="none"/>
+    </g>
+    <g id="Groupe_131" data-name="Groupe 131" transform="translate(10539 5645.439)">
+      <line id="Ligne_13" data-name="Ligne 13" x2="38.395" y2="38.395" transform="translate(0 0)" fill="none" stroke="#6ec1a3" stroke-linecap="round" stroke-width="3"/>
+      <line id="Ligne_14" data-name="Ligne 14" x1="38.395" y2="38.395" transform="translate(0 0)" fill="none" stroke="#6ec1a3" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <text id="FERMER" transform="translate(10510 5751)" fill="#fff" font-size="28" font-family="CorbelLight, Corbel"><tspan x="0" y="0">FERMER</tspan></text>
+  </g>
+</svg>
